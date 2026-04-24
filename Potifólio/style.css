@@ -1,0 +1,50 @@
+.body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+}
+.aula {
+  background: #89a6d4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.aula:hover {
+  transform: scale(1.02);
+}
+
+.conteudo-aula {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.lado-esquerdo {
+  flex: 1;
+}
+
+.lado-direito {
+  flex: 2;
+}
+
+.btn-expo {
+  background: #2a5298;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-expo:hover {
+  background: #1e3c72;
+}
+main {
+  max-width: 1500px;
+  margin: auto;
+  padding: 20px;
+}
